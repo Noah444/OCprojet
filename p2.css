@@ -2,7 +2,7 @@
 
 *
 {
-   font-family: raleway;
+   font-family: 'Raleway', sans-serif;
 }
 
 header
@@ -12,7 +12,7 @@ header
    align-items: center;
    font-size: 1.1em;
    margin-top: 20px;
-   margin-left: 20px;
+   margin-left: 30px;
 }
 
 .textheader
@@ -53,7 +53,7 @@ header
 
 .b1
 {
-   margin-left: 20px;
+   margin-left: 30px;
    margin-top: 40px;
 }
 
@@ -89,7 +89,7 @@ h1
    display: flex;
    width: 440px;
    height: 60px;
-   margin-left: 20px;
+   margin-left: 30px;
 }
 
 .marseillefrance
@@ -247,5 +247,212 @@ h1
    border-left: none;
 }
 
+.information
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: #F2F2F2 solid 1px ;
+   border-radius: 50%;
+   height: 20px;
+   width: 20px;
+   color: #0065FC;
+   
+}
+
+.logementdisponible
+{
+   display: flex;
+   align-items: center;
+   margin-left: 30px;
+   margin-top: 40px;
+}
+
+.b4
+{
+   margin-left: 30px;
+   margin-top: 50px;
+   display: flex ;
+}
+
+
+.b4a
+{
+   background-color: #F2F2F2;
+   border: 2px solid #F2F2F2;
+   width: 1100px;
+   height: 800px;
+   border-radius: 20px;
+}
+
+.b4b
+{
+   background-color: #F2F2F2 ;
+   border: 2px solid #F2F2F2;
+   width: 600px;
+   height: 800px;
+   margin-left: 100px;
+   margin-right: 100px;
+   border-radius: 20px;
+   justify-content: space-between;
+   
+}
+
+.boxlogopopulaires
+{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 20px;
+   width: 595px;
+   height: 70px;
+}
+
+.populaires
+{
+   margin-left: 40px;
+}
+
+.logochart
+{
+   display: flex;
+   margin-right: 40px;
+}
+
+.boxpopulaires
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin: 35px;
+   height: 640px ;
+}
+
+/* DEBUT HOTEL LE SOLEIL DU MATIN*/
+
+.hotelsoleil
+{
+   display: flex;   
+   border: 2px solid #F2F2F2;
+   background-color: #FFFF;
+   width: 515px;
+   height: 185px;
+   border-radius: 25px;
+}
+
+.photohotelsoleil
+{
+   width: 170px;
+   height: 175px ; 
+   margin: 5px;
+   border-top-left-radius: 21px;
+   border-bottom-left-radius: 21px;
+}
+
+.soleildumatin
+{
+   margin-left: 15px;
+}
+
+.boxtextphotohotelsoleil
+{
+   display: flex;
+   
+}
+
+.etoilessatisfaction1
+{
+   margin-top: 63px;
+   color: #0065FC;
+}
+
+/* FIN HOTEL LE SOLEIL DU MATIN*/
+
+/* DEBUT AU COEUR DE L'EAU CHAMBRES D'HOTES*/
+
+.coeurdeleau
+{
+   border: 2px solid #F2F2F2;
+   background-color: #FFFF;
+   width: 515px;
+   height: 185px;
+   border-radius: 25px;
+}
+
+.photocoeurdeleau
+{
+   width: 170px;
+   height: 175px ; 
+   margin: 5px;
+   border-top-left-radius: 21px;
+   border-bottom-left-radius: 21px;
+}
+
+.hotelcoeurdeleau
+{
+   margin-left: 15px;
+}
+
+.boxtextphotocoeurdeleau
+{
+   display: flex;
+   
+}
+
+.etoilessatisfaction2
+{
+   margin-top: 35px;
+   color: #0065FC;
+}
+
+.etoilessatisfactiongrise2
+{
+   color: #F2F2F2;
+}
+/* FIN AU COEUR DE L'EAU CHAMBRES D'HOTES*/
+
+/* DEBUT HOTEL TOUT BLEU ET BLANC*/
+
+.toutbleu
+{
+   border: 2px solid #F2F2F2;
+   background-color: #FFFF;
+   width: 515px;
+   height: 185px;
+   border-radius: 25px;
+}
+
+.phototoutbleu
+{
+   width: 170px;
+   height: 175px ; 
+   margin: 5px;
+   border-top-left-radius: 21px;
+   border-bottom-left-radius: 21px;
+}
+
+.hoteltoutbleu
+{
+   margin-left: 15px;
+}
+
+.boxtextphototoutbleu
+{
+   display: flex;
+   
+}
+
+.etoilessatisfaction3
+{
+   margin-top: 63px;
+   color: #0065FC;
+}
+
+.etoilessatisfactiongrise3
+{
+   color: #F2F2F2;
+}
+
+/* FIN HOTEL TOUT BLEU ET BLANC*/
 
 /* CSS MAIN FIN */
