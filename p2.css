@@ -19,6 +19,8 @@ header
 {
    display: flex;
    justify-content: space-between;
+   width: 379px;
+   height: 20px;
 }
 
 .hebergementactivite
@@ -32,16 +34,24 @@ header
 .hebergementheader
 {
    margin-right: 70px;
+   color: #0065FC;
+   
+}
+
+a:hover
+{
+   color: #0065FC;
 }
 
 .sinscrireheader
 {
-   margin-right: 70px;
+   color: #0065FC;
+   font-weight: bold;
 }
 
 .activiteheader
 {
-   margin-right: 30px;
+   margin-right: 70px;
 }
 
 
@@ -53,7 +63,7 @@ header
 
 .b1
 {
-   margin-left: 30px;
+   margin-left: 57px;
    margin-top: 40px;
 }
 
@@ -89,7 +99,7 @@ h1
    display: flex;
    width: 440px;
    height: 60px;
-   margin-left: 30px;
+   margin-left: 54px;
 }
 
 .marseillefrance
@@ -128,9 +138,9 @@ h1
    font-weight: bold;
    display: flex;
    align-items: center;
-   margin-left: 30px;
+   margin-left: 62px;
    margin-top: 13px;
-   height: 38px;
+   height: 46px;
    width: 1643px;
 }
 
@@ -141,24 +151,23 @@ h1
    align-items: center;
    color: #0065FC;
    background-color: #DEEBFF;
-   width: 40px;
-   height: 40px;
-   border-radius: 50%;
-   margin-right: 15px;
+   width: 50px;
+   height: 50px;
+   border-radius: 50px;
+   margin-right: 13px;
 
 }
 
 .b3a
 {
    display: flex;
-   justify-content: center;
+   justify-content: flex-start;
    align-items: center;
-   margin-left: 30px;
+   margin-left: 24px;
    border: 2px solid #F2F2F2;
-   border-radius: 20px;
-   width: 150px;
-   height: 35px;
-   padding-right: 10px;
+   border-radius: 48px;
+   width: 184px;
+   height: 46px;
    border-left: none;
 }
 
@@ -169,8 +178,8 @@ h1
    align-items: center;
    color: #0065FC;
    background-color: #DEEBFF;
-   width: 40px;
-   height: 40px;
+   width: 50px;
+   height: 50px;
    border-radius: 50%;
    margin-right: 22px;
 
@@ -179,14 +188,13 @@ h1
 .b3b
 {
    display: flex;
-   justify-content: center;
+   justify-content: flex-start;
    align-items: center;
-   margin-left: 30px;
+   margin-left: 24px;
    border: 2px solid #F2F2F2;
-   border-radius: 20px;
-   width: 120px;
-   height: 35px;
-   padding-right: 20px;
+   border-radius: 48px;
+   width: 152px;
+   height: 46px;
    border-left: none;
 }
 
@@ -198,8 +206,8 @@ h1
    align-items: center;
    color: #0065FC;
    background-color: #DEEBFF;
-   width: 40px;
-   height: 40px;
+   width: 50px;
+   height: 50px;
    border-radius: 50%;
    margin-right: 19px;
 
@@ -208,14 +216,13 @@ h1
 .b3c
 {
    display: flex;
-   justify-content: center;
+   justify-content: flex-start;
    align-items: center;
-   margin-left: 30px;
+   margin-left: 24px;
    border: 2px solid #F2F2F2;
-   border-radius: 20px;
-   width: 150px;
-   height: 35px;
-   padding-right: 15px;
+   border-radius: 48px;
+   width: 184px;
+   height: 46px;
    border-left: none;
 }
 
@@ -226,8 +233,8 @@ h1
    align-items: center;
    color: #0065FC;
    background-color: #DEEBFF;
-   width: 40px;
-   height: 40px;
+   width: 50px;
+   height: 50px;
    border-radius: 50%;
    margin-right: 22px;
 
@@ -236,14 +243,13 @@ h1
 .b3d
 {
    display: flex;
-   justify-content: center;
+   justify-content: flex-start;
    align-items: center;
-   margin-left: 30px;
+   margin-left: 24px;
    border: 2px solid #F2F2F2;
-   border-radius: 20px;
-   width: 200px;
-   height: 35px;
-   padding-right: 15px;
+   border-radius: 48px;
+   width: 241px;
+   height: 46px;
    border-left: none;
 }
 
@@ -257,6 +263,7 @@ h1
    height: 20px;
    width: 20px;
    color: #0065FC;
+   margin-right: 15px;
    
 }
 
@@ -264,13 +271,13 @@ h1
 {
    display: flex;
    align-items: center;
-   margin-left: 30px;
+   margin-left: 59px;
    margin-top: 40px;
 }
 
 .b4
 {
-   margin-left: 30px;
+   margin-left: 47px;
    margin-top: 50px;
    display: flex ;
 }
@@ -280,23 +287,89 @@ h1
 {
    background-color: #F2F2F2;
    border: 2px solid #F2F2F2;
-   width: 1100px;
-   height: 800px;
+   width: 882px;
+   height: 619px;
    border-radius: 20px;
+
 }
 
 .b4b
 {
    background-color: #F2F2F2 ;
    border: 2px solid #F2F2F2;
-   width: 600px;
-   height: 800px;
-   margin-left: 100px;
-   margin-right: 100px;
+   width: 422px;
+   height: 623px;
+   
    border-radius: 20px;
    justify-content: space-between;
    
 }
+
+/* DEBUT HEBERGEMENT A MARSEILLE */
+
+.boxhebergements
+{
+   height: 427px;
+   width: 650px;
+   display: flex;
+   
+}
+
+.titrehebergements
+{
+   margin-top: 38px;
+   margin-left: 42px;
+}
+
+.boxaubergecannebiere
+{
+   border: 2px solid #0065FC;
+   width: 245px;
+   height: 198px;
+}
+
+.boxhotelduport
+{
+   border: 2px solid #0065FC;
+   width: 245px;
+   height: 198px;
+}
+
+
+.boxlesmouettes
+{
+   border: 2px solid #0065FC;
+   width: 245px;
+   height: 198px;
+}
+
+
+.boxhoteldelamer
+{
+   border: 2px solid #0065FC;
+   width: 245px;
+   height: 198px;
+}
+
+
+.boxaubergelepanier
+{
+   border: 2px solid #0065FC;
+   width: 245px;
+   height: 198px;
+}
+
+
+.boxhotelamina
+{
+   border: 2px solid #0065FC;
+   width: 245px;
+   height: 198px;
+}
+
+
+
+/* FIN HEBERGEMENT A MARSEILLE */
 
 .boxlogopopulaires
 {
@@ -304,7 +377,7 @@ h1
    align-items: center;
    justify-content: space-between;
    margin-top: 20px;
-   width: 595px;
+   width: 420px;
    height: 70px;
 }
 
@@ -324,135 +397,60 @@ h1
    display: flex;
    flex-direction: column;
    justify-content: space-between;
-   margin: 35px;
-   height: 640px ;
+   margin-right: 40px;
+   margin-top: 10px;
+   margin-bottom: 32px;
+   margin-left: 35px;
+   height: 495px;
+   width: 342px;
 }
 
-/* DEBUT HOTEL LE SOLEIL DU MATIN*/
+/* DEBUT VIGNETTE POPULAIRES */
 
-.hotelsoleil
+.vignettepopulaires
 {
-   display: flex;   
+   display:flex ;
    border: 2px solid #F2F2F2;
    background-color: #FFFF;
-   width: 515px;
-   height: 185px;
+   width: 341px;
+   height: 144px;
    border-radius: 25px;
 }
 
-.photohotelsoleil
+.photohotel
 {
-   width: 170px;
-   height: 175px ; 
+   width: 129px;
+   height: 133px ; 
    margin: 5px;
    border-top-left-radius: 21px;
    border-bottom-left-radius: 21px;
 }
-
-.soleildumatin
+.hotelprix
 {
    margin-left: 15px;
 }
 
-.boxtextphotohotelsoleil
+.etoilessatisfaction
 {
-   display: flex;
-   
-}
-
-.etoilessatisfaction1
-{
-   margin-top: 63px;
+   margin-top: 0px;
    color: #0065FC;
-}
-
-/* FIN HOTEL LE SOLEIL DU MATIN*/
-
-/* DEBUT AU COEUR DE L'EAU CHAMBRES D'HOTES*/
-
-.coeurdeleau
-{
-   border: 2px solid #F2F2F2;
-   background-color: #FFFF;
-   width: 515px;
-   height: 185px;
-   border-radius: 25px;
-}
-
-.photocoeurdeleau
-{
-   width: 170px;
-   height: 175px ; 
-   margin: 5px;
-   border-top-left-radius: 21px;
-   border-bottom-left-radius: 21px;
-}
-
-.hotelcoeurdeleau
-{
-   margin-left: 15px;
-}
-
-.boxtextphotocoeurdeleau
-{
-   display: flex;
-   
 }
 
 .etoilessatisfaction2
 {
-   margin-top: 35px;
+   margin-top: 0px;
    color: #0065FC;
 }
 
-.etoilessatisfactiongrise2
-{
-   color: #F2F2F2;
-}
-/* FIN AU COEUR DE L'EAU CHAMBRES D'HOTES*/
-
-/* DEBUT HOTEL TOUT BLEU ET BLANC*/
-
-.toutbleu
-{
-   border: 2px solid #F2F2F2;
-   background-color: #FFFF;
-   width: 515px;
-   height: 185px;
-   border-radius: 25px;
-}
-
-.phototoutbleu
-{
-   width: 170px;
-   height: 175px ; 
-   margin: 5px;
-   border-top-left-radius: 21px;
-   border-bottom-left-radius: 21px;
-}
-
-.hoteltoutbleu
-{
-   margin-left: 15px;
-}
-
-.boxtextphototoutbleu
-{
-   display: flex;
-   
-}
-
-.etoilessatisfaction3
-{
-   margin-top: 63px;
-   color: #0065FC;
-}
-
-.etoilessatisfactiongrise3
+.etoilessatisfactiongrise
 {
    color: #F2F2F2;
 }
 
-/* FIN HOTEL TOUT BLEU ET BLANC*/
+/* FIN VIGNETTE POPULAIRES */
 
 /* CSS MAIN FIN */
+
+
+
+
