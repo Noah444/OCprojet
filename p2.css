@@ -5,6 +5,8 @@
    font-family: 'Raleway', sans-serif;
 }
 
+
+
 header
 {
    display: flex;
@@ -19,7 +21,7 @@ header
 {
    display: flex;
    justify-content: space-between;
-   width: 379px;
+   width: 600px;
    height: 20px;
 }
 
@@ -38,10 +40,6 @@ header
    
 }
 
-a:hover
-{
-   color: #0065FC;
-}
 
 .sinscrireheader
 {
@@ -141,7 +139,7 @@ h1
    margin-left: 62px;
    margin-top: 13px;
    height: 46px;
-   width: 1643px;
+   width: 1440px;
 }
 
 .billet
@@ -280,6 +278,8 @@ h1
    margin-left: 47px;
    margin-top: 50px;
    display: flex ;
+   width: 1500px;
+   height: 628px;
 }
 
 
@@ -299,7 +299,7 @@ h1
    border: 2px solid #F2F2F2;
    width: 422px;
    height: 623px;
-   
+   margin-left: 40px;
    border-radius: 20px;
    justify-content: space-between;
    
@@ -307,12 +307,13 @@ h1
 
 /* DEBUT HEBERGEMENT A MARSEILLE */
 
-.boxhebergements
+.boxhebergementsmarseille
 {
-   height: 427px;
-   width: 650px;
-   display: flex;
    
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-content: space-between;
 }
 
 .titrehebergements
@@ -321,52 +322,53 @@ h1
    margin-left: 42px;
 }
 
-.boxaubergecannebiere
+.boxhebergements
 {
-   border: 2px solid #0065FC;
+   background-color: #FFFF;
+   border-radius: 20px;
    width: 245px;
    height: 198px;
+   margin: 15px;
+   display: flex;
+   flex-direction: column;
 }
 
-.boxhotelduport
+.photohebergements
 {
-   border: 2px solid #0065FC;
-   width: 245px;
-   height: 198px;
+   width: 236px;
+   height: 113px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   margin: 5px;
+   object-fit: cover;
 }
 
-
-.boxlesmouettes
+.hotelprixhebergements
 {
-   border: 2px solid #0065FC;
-   width: 245px;
-   height: 198px;
+   display: flex;
+   flex-direction: column;
+   align-content: space-between;
+   margin-left: 16px;
 }
 
-
-.boxhoteldelamer
+.nomhotelhebergements
 {
-   border: 2px solid #0065FC;
-   width: 245px;
-   height: 198px;
+   margin: 0px;
+   margin-top: 3px;
 }
 
-
-.boxaubergelepanier
+.prixdesnuitshebergements
 {
-   border: 2px solid #0065FC;
-   width: 245px;
-   height: 198px;
+   margin: 0px;
+   margin-top: 6px;
+   margin-bottom: 6px;
 }
 
-
-.boxhotelamina
+.afficherplus
 {
-   border: 2px solid #0065FC;
-   width: 245px;
-   height: 198px;
+   margin-left: 44px ;
+   font-weight: bold;
 }
-
 
 
 /* FIN HEBERGEMENT A MARSEILLE */
@@ -425,7 +427,7 @@ h1
    border-top-left-radius: 21px;
    border-bottom-left-radius: 21px;
 }
-.hotelprix
+.hotelprixpopulaires
 {
    margin-left: 15px;
 }
@@ -448,6 +450,184 @@ h1
 }
 
 /* FIN VIGNETTE POPULAIRES */
+
+/* DEBUT ACTIVITE A MARSEILLE */
+
+.b5
+{
+   margin-left: 50px;
+   margin-top: 65px;
+}
+
+.boxactivites
+{
+   display: flex;
+   justify-content: flex-start;
+}
+
+.boxvieuxport
+{
+   box-shadow: 0px 0px 10px 0px #F2F2F2;
+   border-top: none;
+   border-radius: 20px;
+   background-color: #FFFF;
+   width: 302px;
+   height: 444px;
+}
+
+.photoactivitexl
+{
+   width: 303px ;
+   height: 389px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   object-fit: cover;
+}
+
+.boxtitre
+{
+   margin-left: 20px;
+   font-weight: bold;
+}
+
+.boxpomeguesfrioul
+{
+   display: flex;
+   flex-direction: column;
+   margin-left: 43px;
+}
+
+.photoactivitepomegues
+{
+   height: 179px;
+   width: 302px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   object-fit: cover;
+}
+
+
+
+.boxpomegues
+{
+   box-shadow: 0px 0px 10px 0px #F2F2F2;
+   border-top: none;
+   border-radius: 20px;
+   background-color: #FFFF;
+   width: 302px;
+   height: 235px;
+   margin-bottom: 42px;
+}
+
+.photoactivitefrioul
+{
+   height: 109px;
+   width: 302px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   object-fit: cover;
+}
+
+.boxfrioul
+{
+   box-shadow: 0px 0px 10px 0px #F2F2F2;
+   border-top: none;
+   border-radius: 20px;
+   background-color: #FFFF;
+   width: 302px;
+   height: 165px;
+}
+
+.boxcalanques
+{
+   margin-left: 43px;
+   box-shadow: 0px 0px 10px 0px #F2F2F2;
+   border-top: none;
+   border-radius: 20px;
+   background-color: #FFFF;
+   width: 302px;
+   height: 444px;
+}
+
+.gardelongchamp
+{
+   display: flex;
+   flex-direction: column;
+}
+
+.photogarde
+{
+   height: 138px;
+   width: 302px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   object-fit: cover;
+}
+
+.boxgarde
+{
+   margin-left: 43px;
+   box-shadow: 0px 0px 10px 0px #F2F2F2;
+   border-top: none;
+   border-radius: 20px;
+   background-color: #FFFF;
+   width: 302px;
+   height: 194px;
+   margin-bottom: 38px;
+}
+
+.photolongchamp
+{
+   height: 153px;
+   width: 302px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   object-fit: cover;
+}
+
+.boxlongchamp
+{
+   margin-left: 43px;
+   box-shadow: 0px 0px 10px 0px #F2F2F2;
+   border-top: none;
+   border-radius: 20px;
+   background-color: #FFFF;
+   width: 302px;
+   height: 210px;
+}
+/* FIN ACTIVITE A MARSEILLE */
+
+/* DEBUT FOOTER */
+
+.bandegrise
+{
+   display: flex;
+   margin-top: 60px;
+   height: 216px;
+   width: 1432px;
+   background-color: #F2F2F2
+}
+
+.apropo
+{
+   margin-top: 50px;
+   margin-left: 50px;
+}
+
+.noshebergements
+{
+   margin-top: 50px;
+   margin-left: 227px;
+}
+
+.Assistance
+{
+   margin-top: 50px;
+   margin-left: 288px;
+}
+
+/* FIN FOOTER */
+
 
 /* CSS MAIN FIN */
 
