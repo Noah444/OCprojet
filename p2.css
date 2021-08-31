@@ -5,7 +5,10 @@
    font-family: 'Raleway', sans-serif;
 }
 
-
+main
+{
+   width: 1440px;
+}
 
 header
 {
@@ -14,7 +17,7 @@ header
    align-items: center;
    font-size: 1.1em;
    margin-top: 20px;
-   margin-left: 30px;
+   margin-left: 57px;
 }
 
 .textheader
@@ -25,19 +28,21 @@ header
    height: 20px;
 }
 
-.hebergementactivite
+.listeheader
 {
+   list-style-type: none;
    display: flex;
-   justify-content: space-between;
-   margin-left: 70px;
-   margin-right: 50px;
+
 }
 
 .hebergementheader
 {
    margin-right: 70px;
    color: #0065FC;
-   
+   display: inline;
+   padding-top: 25px;
+
+
 }
 
 
@@ -50,14 +55,47 @@ header
 .activiteheader
 {
    margin-right: 70px;
+   display:block;
 }
 
+
+.hebergementheader:hover
+{
+   border-top: solid 2px #0065FC;
+   margin-bottom: 25px;
+}
+
+.activiteheader:hover 
+{
+   border-top: solid 2px #0065FC;
+   padding-top: 25px;
+   margin-bottom: 25px;
+}
 
 /* CSS HEADER FIN */
 
 /* -------------------------------------------------------------------------- */
 
 /* CSS MAIN DEBUT */
+
+.lienimages
+{
+   text-decoration: none;
+   color:black ;
+}
+
+a:hover
+{
+   color: #0065FC;
+   text-decoration: none;
+}
+
+a
+{
+   text-decoration: none;
+}
+
+
 
 .b1
 {
@@ -67,7 +105,6 @@ header
 
 h1
 {
-   font-style: b;
    font-size: 1.4em;
 }
 
@@ -124,7 +161,7 @@ h1
    border-color: #0065FC;
    background-color: #0065FC;
    color: #FFFF;
-   font-style: bold;
+   font-weight: bold;
    height: 45px;
    width: 120px;
    border-top-right-radius: 15px;
@@ -139,7 +176,7 @@ h1
    margin-left: 62px;
    margin-top: 13px;
    height: 46px;
-   width: 1440px;
+   width: 1300px;
 }
 
 .billet
@@ -278,8 +315,7 @@ h1
    margin-left: 47px;
    margin-top: 50px;
    display: flex ;
-   width: 1500px;
-   height: 628px;
+   margin-right: 48px;
 }
 
 
@@ -287,8 +323,8 @@ h1
 {
    background-color: #F2F2F2;
    border: 2px solid #F2F2F2;
-   width: 882px;
-   height: 619px;
+   width: 61%;
+   height: 43%;
    border-radius: 20px;
 
 }
@@ -608,22 +644,34 @@ h1
    background-color: #F2F2F2
 }
 
+.h1footer
+{
+   margin-bottom: 25px;
+}
+
 .apropo
 {
-   margin-top: 50px;
+   margin-top: 35px;
    margin-left: 50px;
 }
 
 .noshebergements
 {
-   margin-top: 50px;
+   margin-top: 35px;
    margin-left: 227px;
 }
 
 .Assistance
 {
-   margin-top: 50px;
+   margin-top: 35px;
    margin-left: 288px;
+}
+
+.listefooter
+{
+   display: flex;
+   flex-direction: column;
+   list-style-type: none;
 }
 
 /* FIN FOOTER */
